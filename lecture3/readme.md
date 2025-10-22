@@ -161,9 +161,15 @@
 
 - Protocol Downgrade (forcing TLS 1.0/1.1)
 
+    - **Hackers trick the system into using an older**, less secure TLS version (like TLS 1.0 or SSL 3.0) that’s easier to break.
+
 - Heartbleed (OpenSSL memory leak)
 
+    - A **bug in OpenSSL** that allowed attackers to **read private data** (like passwords and keys) directly **from a server’s memory**.
+
 - BEAST / POODLE (CBC-related vulnerabilities)
+
+    - Old vulnerabilities in the way encryption (CBC mode) was handled — **attackers could slowly guess and decrypt sensitive data like cookies**.
 
 - Certificate Forgery / Compromised CA
 
