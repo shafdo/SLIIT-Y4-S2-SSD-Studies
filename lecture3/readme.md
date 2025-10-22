@@ -42,7 +42,11 @@
 
         1. SSL Bridging/Terminating: Load balancer decrypts traffic.
 
+            ![alt text](image-6.png)
+
         2. SSL Tunneling/Pass-through: Traffic remains encrypted end-to-end.
+
+            ![alt text](image-7.png)
 
     - Ensures session stickiness or session replication across servers.
 
@@ -135,6 +139,11 @@
 - **Guarantees the authenticity of public keys through digital certificates.**
 
 
+## How PGP works?
+
+![alt text](image-5.png)
+
+
 ## Digital Certificates
 
 - A digital certificate binds an entity’s identity to its public key.
@@ -153,6 +162,10 @@
     - Signed by the entity itself, not by a CA.
     - Common in testing or internal systems, but not trusted by browsers.
     - Example command-line tools: keytool, openssl.
+
+- How digital signature generation and verification works?
+
+    ![alt text](image-4.png)
 
 
 ## Attacks on SSL/TLS
